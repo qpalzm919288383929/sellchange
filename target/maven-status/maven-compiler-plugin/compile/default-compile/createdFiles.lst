@@ -1,0 +1,4 @@
+com\cinderybell\sellchange\listeners\VillagerTradeListener.class
+com\cinderybell\sellchange\managers\PlayerAttributeManager.class
+com\cinderybell\sellchange\SellChange.class
+com\cinderybell\sellchange\utils\ItemBuilder.class

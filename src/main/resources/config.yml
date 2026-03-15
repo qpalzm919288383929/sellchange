@@ -1,0 +1,26 @@
+#作者 cinderybell6765 作于丙午年正月二十三
+# 是否启用自定义交易注入
+enable-custom-trades: true
+
+# 自定义交易列表 (会添加到所有村民的交易池中，或者你可以扩展逻辑指定特定职业)
+custom-trades:
+  - result-item:
+      material: DIAMOND_SWORD
+      amount: 1
+      name: "&b 勇者之剑"
+      lore:
+        - "&7 完成任务可获得折扣"
+      custom-model- 1
+    cost-item:
+      material: EMERALD
+      amount: 10 # 基础价格
+    max-uses: 999999999
+
+# 价格动态调整配置
+pricing:
+  # 基础折扣系数 (每 10 点分数减少 1 个绿宝石成本，最低为 1)
+  discount-per-points: 10
+  # 最低价格限制
+  min-price: 1
+  # 是否影响原版交易
+  affect-vanilla-trades: true

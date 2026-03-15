@@ -1,0 +1,15 @@
+name: sellchange
+version: '1.0.0'
+main: com.cinderybell.sellchange.SellChange
+api-version: '1.16'
+author: cinderybell6765
+description: Modify villager trades and dynamic pricing based on player attributes.
+commands:
+  sellchange:
+    description: Manage sellchange plugin settings.
+    usage: /sellchange <setscore|reload>
+    permission: sellchange.admin
+permissions:
+  sellchange.admin:
+    description: Allows access to admin commands.
+    default: op
